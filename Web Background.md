@@ -24,38 +24,38 @@
 - Security mechanisms implemented by browsers include _sandboxing_, _Same Origin Policy (SOP)_, _HTTPS (SSL/TLS)_ protocols, OS/runtime level protection --> **DEP** (data execution prevention) marks memory pages as _non executable (NX)_, **ASLR** (prevent guessing memory location + buffer overflows)
 - Same Origin Policy (SOP) - Restricts how a document/script loaded by one origin can interact with a resource from another origin 
 
-![SOP](SOP.png)
+![SOP](/assets/SOP.png)
 
 ---
 ### Web Protocols 
 
 - HTTP operates over `TCP protocol` cuz TCP guarantees ordered, error-free data transmission, making it more suitable for web traffic, it is a **_stateless protocol_**
 
-![methods](http-methods.png)
+![methods](/assets/http-methods.png)
 
 **Status Codes :**
-![statuscodes](status-codes.png)
+![statuscodes](/assets/status-codes.png)
 
 
 ##### HTTPS implementation
 
-![implement](https-implement.png)
+![implement](/assets/https-implement.png)
 
 ##### Data Transfer Mechanism
-![datatransfer](data-transfer.png)
+![datatransfer](/assets/data-transfer.png)
 
 ##### DNS Protocol
-![dns](dns-protocol.png)
+![dns](/assets/dns-protocol.png)
 
 ---
 ### Session Management (cookies + tokens)
 
 Session Tracking:
 
-![session](session-track.png)
+![session](/assets/session-track.png)
 
 - JSON Web Tokens (JWT) is a standardized format for sending cryptographically signed JSON data
-![JWT-FORMAT](JWT.png)
+![JWT-FORMAT](/assets/JWT.png)
 
 > - **cookies/session IDs** are used in _stateful applications_ where the server looks it up in a database
 > - In JWT, no database query made (_stateless applications_), for server-to-server connections and `enhanced scalability (no database lookup)` especially in _distributed/microservices architecture_ 
