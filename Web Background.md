@@ -14,7 +14,7 @@
 - processes and worker processes (forked from parent) communicate with each other through the `Inter-Process Communication (IPC)` 
 - When we start browser, there's like 6 processes started by default :
 
-![processes](browser-processes.png)
+![processes](/assets/browser-processes.png)
 
 - Browsers are smart and well-developed softwares :
 >  - if good hardware detected --> create & split into multiple processes with own threads for more stability
